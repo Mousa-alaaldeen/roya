@@ -1,0 +1,79 @@
+:root {
+    --background-color: #f0f0f0;
+    --secondery-color: #434342;
+    --text-color: #1c2b4f;
+    --main-color: #000;
+}
+
+.background-color {
+    color: white;
+}
+
+.icon-background-color{
+    color: var(--secondery-color);
+    
+}
+.login-icon-color {
+    background-color: var(--text-color);
+}
+.text-color{
+    color: var(--text-color);
+    font-family: 'Cairo', Arial, sans-serif;
+}
+
+.Sign-icon-color {
+    margin: 0px 5px;
+    background-color: crimson;
+}
+
+.container {
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+.p {
+    color: var(--text-color);
+    font-family: 'Cairo', Arial, sans-serif;
+    width: 400px;
+    font-size: 25px;
+    line-height: 34px;
+    
+}
+
+.div-flex {
+    display: flex;
+    height: 60px;
+    margin-top: 10px; 
+    align-items: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.background-color-white {
+    background-color: white;
+    margin: 0px ; 
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.logo-text {
+    color: var(--text-color);   
+    margin-right: 10px;
+}
+hr{
+    width: 100%;
+    color: var( --secondery-color);
+    height: 1px;
+    margin: 0px;
+    
+}
